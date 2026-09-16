@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Websites by Kristina Joy Nelson · Duluth, Minnesota</title>
+<meta name="description" content="Hand-built websites for small businesses in Duluth and beyond. One-page sites from $350, full sites from $650. No monthly platform fee. You own everything.">
+<link rel="canonical" href="https://kjoysky.github.io/websites/">
+<meta property="og:title" content="Websites by Kristina Joy Nelson">
+<meta property="og:description" content="A website for your business that looks like you, not a template. Built by hand in Duluth, Minnesota. No monthly platform fee.">
+<meta property="og:image" content="https://kjoysky.github.io/websites/img/newcobrief.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+:root{
+  --bg:#F7F4EC; --bg2:#EFEBE0; --ink:#1E2A24; --ink2:#55605A; --line:#D9D3C4;
+  --accent:#2d6a4f; --accent-ink:#F7F4EC; --card:#FFFFFF;
+  --shadow:0 18px 40px -22px rgba(30,42,36,.35), 0 2px 6px rgba(30,42,36,.08);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141B17; --bg2:#1B241F; --ink:#EDE9DF; --ink2:#A8B0AA; --line:#2E3A33; --accent:#7CBB99; --accent-ink:#141B17; --card:#1B241F;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7), 0 2px 6px rgba(0,0,0,.3);
+}}
+*{box-sizing:border-box}
+header.hero>*,.sec-head>*,.plans>*,.work>*,.steps>*,.about>*,.faq>*{min-width:0}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;font-size:17px;line-height:1.55}
+a{color:var(--accent)}
+img{max-width:100%;display:block}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:Jost,"Helvetica Neue",Arial,sans-serif;text-wrap:balance;margin:0;font-weight:600}
+.eyebrow{font-family:Jost,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);font-family:Jost,sans-serif}
+nav .brand{font-weight:600;font-size:18px;color:var(--ink);text-decoration:none}
+nav .brand span{color:var(--ink2);font-weight:400}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;font-size:15px}
+nav ul a{color:var(--ink2);text-decoration:none}
+nav ul a:hover{color:var(--accent)}
+@media (max-width:640px){nav ul{display:none}}
+
+.btn{display:inline-block;font-family:Jost,sans-serif;font-weight:600;font-size:15px;letter-spacing:.02em;background:var(--accent);color:var(--accent-ink);padding:13px 22px;border-radius:4px;text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+
+header.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding:64px 0 56px;border-bottom:1px solid var(--line)}
+header h1{font-size:clamp(34px,5vw,54px);line-height:1.04;letter-spacing:-.01em;margin-top:12px}
+header p.lede{margin:20px 0 0;max-width:32em;color:var(--ink2);font-size:19px}
+header .cta{margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+header .cta small{font-family:Jost,sans-serif;color:var(--ink2);font-size:14px}
+.hero-shot{box-shadow:var(--shadow);border-radius:6px;overflow:hidden;background:var(--card);border:1px solid var(--line)}
+.hero-shot img{width:100%;height:auto}
+@media (max-width:820px){header.hero{grid-template-columns:1fr;gap:32px}}
+
+section{padding:64px 0 8px}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:end;margin-bottom:28px}
+.sec-head h2{font-size:30px;margin-top:6px}
+.sec-head p{margin:0;color:var(--ink2);font-size:16px;max-width:36em}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr}}
+
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:26px 24px 24px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.plan.featured{border-color:var(--accent);border-width:2px}
+.plan h3{font-size:20px}
+.plan .price{font-family:Jost,sans-serif;font-size:40px;font-weight:600;line-height:1;margin:14px 0 4px;letter-spacing:-.02em}
+.plan .price small{font-size:15px;font-weight:500;color:var(--ink2);letter-spacing:0}
+.plan .for{font-family:Jost,sans-serif;font-size:14px;color:var(--ink2);margin-bottom:16px}
+.plan ul{margin:0 0 20px;padding-left:18px;font-size:15.5px;color:var(--ink);flex:1}
+.plan li{margin:6px 0}
+.plan .btn{align-self:flex-start}
+.plans-note{font-family:Jost,sans-serif;font-size:14px;color:var(--ink2);margin-top:20px;max-width:60em}
+@media (max-width:820px){.plans{grid-template-columns:1fr}}
+
+.work{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.piece{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:var(--shadow)}
+.piece img{width:100%;height:auto;aspect-ratio:1000/720;object-fit:cover;object-position:top;border-bottom:1px solid var(--line)}
+.piece .cap{padding:18px 20px 20px}
+.piece .cap h3{font-size:18px}
+.piece .cap p{margin:6px 0 0;font-size:15px;color:var(--ink2)}
+.piece .cap a{font-family:Jost,sans-serif;font-size:14px;font-weight:500;text-decoration:none}
+.also{margin-top:22px;font-size:15.5px;color:var(--ink2);max-width:60em}
+@media (max-width:760px){.work{grid-template-columns:1fr}}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:step}
+.step{border-top:2px solid var(--accent);padding-top:14px}
+.step b{display:block;font-family:Jost,sans-serif;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.step h3{font-size:18px}
+.step p{margin:6px 0 0;font-size:15px;color:var(--ink2)}
+@media (max-width:820px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}}
+
+.about{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:start}
+.about img{width:200px;height:200px;object-fit:cover;border-radius:6px;box-shadow:var(--shadow)}
+.about p{margin:0 0 14px;max-width:38em}
+@media (max-width:640px){.about{grid-template-columns:1fr}.about img{width:140px;height:140px}}
+
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:26px 40px}
+.faq h3{font-size:17px}
+.faq p{margin:6px 0 0;font-size:15.5px;color:var(--ink2)}
+@media (max-width:760px){.faq{grid-template-columns:1fr}}
+
+.contact{margin:72px 0 0;padding:44px;background:var(--bg2);border:1px solid var(--line);border-radius:8px;text-align:center}
+.contact h2{font-size:30px}
+.contact p{margin:12px auto 0;max-width:34em;color:var(--ink2)}
+.contact .btn{margin-top:22px;font-size:16px}
+.contact .email{font-family:Jost,sans-serif;font-size:15px;margin-top:14px;color:var(--ink2)}
+footer{padding:36px 0 48px;font-family:Jost,sans-serif;font-size:13.5px;color:var(--ink2);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--ink2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <a class="brand" href="#top">Kristina Joy Nelson <span>· Websites</span></a>
+  <ul>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#how">How it works</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="top">
+  <div>
+    <div class="eyebrow">Websites for small businesses · Duluth, Minnesota</div>
+    <h1>A website for your business that looks like you, not a template.</h1>
+    <p class="lede">Hand-built, fast, and easy to read on a phone. No monthly platform fee. You own the whole thing, files and domain included.</p>
+    <div class="cta">
+      <a class="btn" href="#contact">Get a quote</a>
+      <a class="btn ghost" href="#pricing">See pricing</a>
+      <small>One-page sites from $350</small>
+    </div>
+  </div>
+  <div class="hero-shot"><img src="img/newcobrief.jpg" alt="Screenshot of newcobrief.com, a weekly business newsletter site built by Kristina Joy Nelson" width="700" height="900"></div>
+</header>
+
+<section id="pricing">
+  <div class="sec-head">
+    <div><div class="eyebrow">Pricing</div><h2>Flat prices. No surprises.</h2></div>
+    <p>Half when you say go, half when the site is live. The domain (about $15 a year) is the only ongoing cost, and it stays in your name.</p>
+  </div>
+  <div class="plans">
+    <div class="plan">
+      <h3>One-page site</h3>
+      <div class="price">$350</div>
+      <div class="for">For a shop, a trade, a studio, a practice</div>
+      <ul>
+        <li>Everything a customer needs on one page: what you do, hours, photos, map, how to reach you</li>
+        <li>Looks right on phones and desktops</li>
+        <li>Set up on your own domain</li>
+        <li>Live in about a week</li>
+      </ul>
+      <a class="btn ghost" href="#contact">Start here</a>
+    </div>
+    <div class="plan featured">
+      <h3>Business site</h3>
+      <div class="price">$650</div>
+      <div class="for">Up to five pages</div>
+      <ul>
+        <li>Home, services, about, gallery or menu, contact</li>
+        <li>Set up so Google can find you locally</li>
+        <li>Email signup or booking link if you want one</li>
+        <li>Two rounds of changes included</li>
+      </ul>
+      <a class="btn" href="#contact">Start here</a>
+    </div>
+    <div class="plan">
+      <h3>Updates</h3>
+      <div class="price">$40<small> / month</small></div>
+      <div class="for">Optional, cancel any time</div>
+      <ul>
+        <li>Send me the change, it's done within two business days</li>
+        <li>New hours, new photos, a seasonal special, a new page</li>
+        <li>Or pay as you go at $60 an hour</li>
+      </ul>
+      <a class="btn ghost" href="#contact">Ask about it</a>
+    </div>
+  </div>
+  <p class="plans-note">Want to edit the site yourself? I can set you up on Squarespace instead for a $300 setup fee. Squarespace bills you around $16 to $25 a month for that.</p>
+</section>
+
+<section id="work">
+  <div class="sec-head">
+    <div><div class="eyebrow">Work</div><h2>Two sites I built and run.</h2></div>
+    <p>Both are live. Click through and try them on your phone.</p>
+  </div>
+  <div class="work">
+    <div class="piece">
+      <img src="img/newcobrief.jpg" alt="NewCo Brief home page" width="700" height="900">
+      <div class="cap">
+        <h3>NewCo Brief</h3>
+        <p>A weekly newsletter and website covering new businesses in ten Colorado cities. City pages, email signup, paid plans, and it refreshes itself every night.</p>
+        <a href="https://newcobrief.com" target="_blank" rel="noopener">newcobrief.com →</a>
+      </div>
+    </div>
+    <div class="piece">
+      <img src="img/kristinajoy.jpg" alt="Kristina Joy art site home page" width="700" height="900">
+      <div class="cap">
+        <h3>Kristina Joy</h3>
+        <p>My own art site: galleries, an about page, and a contact form. Built on Squarespace, so it's a good look at what the self-edit option gives you.</p>
+        <a href="https://www.kristinajoy.com" target="_blank" rel="noopener">kristinajoy.com →</a>
+      </div>
+    </div>
+  </div>
+  <p class="also">I also build iPhone apps. My BP Numbers and Value Study Assistant are both on the App Store.</p>
+</section>
+
+<section id="how">
+  <div class="sec-head">
+    <div><div class="eyebrow">How it works</div><h2>Four steps, about a week.</h2></div>
+    <p>You don't need to know anything technical. If you can send an email and a few photos, that's enough.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><b>Step 1</b><h3>Tell me about your business</h3><p>An email or a 15-minute call. What you do, who your customers are, what you want people to do when they land on the site.</p></div>
+    <div class="step"><b>Step 2</b><h3>I send a draft</h3><p>Within a week you get a link to a real, working draft you can open on your phone.</p></div>
+    <div class="step"><b>Step 3</b><h3>We fix what's off</h3><p>Two rounds of changes are included. Wording, photos, colors, order of things.</p></div>
+    <div class="step"><b>Step 4</b><h3>It goes live</h3><p>On your domain, in your name. I set up the domain and hosting so you never touch it.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="sec-head">
+    <div><div class="eyebrow">About</div><h2>Who you'd be working with.</h2></div>
+  </div>
+  <div class="about">
+    <img src="img/kristina.jpg" alt="Kristina Joy Nelson" width="200" height="200">
+    <div>
+      <p>I'm Kristina Joy Nelson, an artist in Duluth, Minnesota who also builds websites and apps. I paint birds and I write code, and I've found the two have more in common than you'd think: both come down to getting the small things right.</p>
+      <p>I like working with people who have a real business and no time to fuss with a website builder. You tell me what you do, I make it look good and work well, and you get back to your customers.</p>
+      <p>Duluth and the North Shore are home, but everything happens by email, so I work with businesses anywhere.</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="sec-head">
+    <div><div class="eyebrow">Questions</div><h2>The things people usually ask.</h2></div>
+  </div>
+  <div class="faq">
+    <div><h3>Do I own the website?</h3><p>Yes. The domain is registered in your name and I hand you every file. If we ever part ways, you keep everything.</p></div>
+    <div><h3>What does it cost each year after it's built?</h3><p>Just the domain, about $15 a year. Hosting is free and included. There is no platform subscription.</p></div>
+    <div><h3>Can I make changes myself?</h3><p>With the hand-built option, you send me the change and I make it. If you'd rather edit yourself, choose the Squarespace setup.</p></div>
+    <div><h3>I already have a domain. Can you use it?</h3><p>Yes. I'll walk you through pointing it at the new site. It takes a few minutes.</p></div>
+    <div><h3>Will people find me on Google?</h3><p>The site is built so Google can read it properly, and I set up your Google Business Profile link. Showing up high for competitive searches takes time and content, and I'll tell you honestly what to expect.</p></div>
+    <div><h3>How do I pay?</h3><p>Half to start, half when it's live. Check, Venmo, or card.</p></div>
+  </div>
+</section>
+
+<div class="contact" id="contact">
+  <div class="eyebrow">Contact</div>
+  <h2>Tell me about your business.</h2>
+  <p>A few sentences is plenty. I'll reply within a day with a price and a couple of questions.</p>
+  <a class="btn" href="mailto:colorcrayonart@gmail.com?subject=Website%20for%20my%20business">Email Kristina</a>
+  <div class="email">colorcrayonart@gmail.com · Duluth, Minnesota</div>
+</div>
+
+<footer>
+  <div>© 2026 Kristina Joy Nelson</div>
+  <div><a href="https://www.kristinajoy.com">Art</a> · <a href="https://newcobrief.com">NewCo Brief</a></div>
+</footer>
+
+</div>
+</body>
+</html>
